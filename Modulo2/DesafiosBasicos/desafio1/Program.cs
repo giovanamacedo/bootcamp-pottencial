@@ -3,8 +3,8 @@
       while (n > 0){
         int l = n % 10;
              p *= l;
-             s +=      ;
-             n /=      ;
+             s += l;
+             n /= 10;
       }
 
 Console.WriteLine(p-s);
